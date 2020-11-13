@@ -1,0 +1,20 @@
+{
+  "name": "instant-games-tutorial",
+  "version": "1.0.0",
+  "description": "fb instant games sdk tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usagib/instant-games-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Usagib/instant-games-tutorial/issues"
+  },
+  "homepage": "https://github.com/Usagib/instant-games-tutorial#readme"
+}
