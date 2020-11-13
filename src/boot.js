@@ -1,9 +1,13 @@
 FBInstant.initializeAsync().then(function() {
-  var config = {
-    type: phaser.AUTO,
-    width: window.innerwidth,
-    height: window.innerheight,
-  };
 
-  new Phaser.Game(config);
+    var config = {
+        type: Phaser.CANVAS,
+        width: 800,
+        height: 600,
+        backgroundColor: '#222448',
+        scene: [ Preloader, GameShare ]
+    };
+
+    new Phaser.Game(config);
+
 });
